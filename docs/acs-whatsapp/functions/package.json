@@ -1,0 +1,13 @@
+{
+  "name": "lineup-acs-whatsapp",
+  "version": "0.1.0",
+  "description": "Outbound WhatsApp send for lineup via Azure Communication Services (phase 1-2 skeleton).",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/communication-messages": "^1.0.0",
+    "@azure/functions": "^4.0.0"
+  }
+}

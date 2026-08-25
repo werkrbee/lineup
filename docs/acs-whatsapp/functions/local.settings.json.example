@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "ACS_CONNECTION_STRING": "endpoint=https://acs-lineup.communication.azure.com/;accesskey=REPLACE_ME",
+    "WHATSAPP_CHANNEL_ID": "REPLACE_WITH_CHANNEL_REGISTRATION_GUID"
+  }
+}

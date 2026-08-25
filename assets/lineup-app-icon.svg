@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="lineup app icon">
+  <title>lineup — app icon</title>
+  <desc>Ink tile with a lineup of five players — four filled and one dashed open spot — on a honey baseline.</desc>
+
+  <!-- full-bleed ink tile (maskable-safe) -->
+  <rect x="0" y="0" width="240" height="240" fill="#17140F"/>
+
+  <!-- honey baseline -->
+  <rect x="18" y="156" width="204" height="7" rx="3.5" fill="#F2A81D"/>
+
+  <!-- filled players (In) — cream bodies, honey heads -->
+  <g>
+    <path d="M25,150 L25,124 Q25,108 40,108 Q55,108 55,124 L55,150 Z" fill="#F7EFDD"/>
+    <circle cx="40" cy="92" r="11" fill="#F2A81D"/>
+    <path d="M65,150 L65,124 Q65,108 80,108 Q95,108 95,124 L95,150 Z" fill="#F7EFDD"/>
+    <circle cx="80" cy="92" r="11" fill="#F2A81D"/>
+    <path d="M105,150 L105,124 Q105,108 120,108 Q135,108 135,124 L135,150 Z" fill="#F7EFDD"/>
+    <circle cx="120" cy="92" r="11" fill="#F2A81D"/>
+    <path d="M145,150 L145,124 Q145,108 160,108 Q175,108 175,124 L175,150 Z" fill="#F7EFDD"/>
+    <circle cx="160" cy="92" r="11" fill="#F2A81D"/>
+  </g>
+
+  <!-- open slot (bullpen) — dashed cream -->
+  <g fill="none" stroke="#F7EFDD" stroke-width="3" stroke-dasharray="5 4" stroke-linejoin="round">
+    <path d="M185,150 L185,124 Q185,108 200,108 Q215,108 215,124 L215,150 Z"/>
+    <circle cx="200" cy="92" r="11"/>
+  </g>
+</svg>

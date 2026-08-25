@@ -1,0 +1,13 @@
+{
+  "name": "airtable",
+  "description": "Read/write the SportsCopilot Airtable base (Groups, Members, Events, RSVPs).",
+  "transport": "stdio",
+  "config": {
+    "command": "npx",
+    "args": ["-y", "airtable-mcp-server"],
+    "env": {
+      "AIRTABLE_API_KEY": "${AIRTABLE_API_KEY}"
+    }
+  },
+  "notes": "Create a personal access token at https://airtable.com/create/tokens with data.records:read + data.records:write and schema.bases:read scopes on the SportsCopilot base. Put it in AIRTABLE_API_KEY (never commit it). Verify the exact package/tool names against the current Airtable MCP server docs."
+}

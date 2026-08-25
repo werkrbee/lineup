@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="lineup favicon">
+  <title>lineup — favicon glyph</title>
+  <desc>Simplified favicon: an ink rounded tile with three players — two filled and one dashed open spot — on a honey baseline.</desc>
+
+  <rect x="0" y="0" width="240" height="240" rx="44" fill="#17140F"/>
+
+  <!-- honey baseline -->
+  <rect x="40" y="162" width="160" height="9" rx="4.5" fill="#F2A81D"/>
+
+  <!-- filled players (bigger, for legibility at small sizes) -->
+  <g>
+    <path d="M52,156 L52,120 Q52,98 72,98 Q92,98 92,120 L92,156 Z" fill="#F7EFDD"/>
+    <circle cx="72" cy="80" r="15" fill="#F2A81D"/>
+    <path d="M100,156 L100,120 Q100,98 120,98 Q140,98 140,120 L140,156 Z" fill="#F7EFDD"/>
+    <circle cx="120" cy="80" r="15" fill="#F2A81D"/>
+  </g>
+
+  <!-- open slot -->
+  <g fill="none" stroke="#F7EFDD" stroke-width="4" stroke-dasharray="6 5" stroke-linejoin="round">
+    <path d="M148,156 L148,120 Q148,98 168,98 Q188,98 188,120 L188,156 Z"/>
+    <circle cx="168" cy="80" r="15"/>
+  </g>
+</svg>
